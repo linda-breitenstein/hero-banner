@@ -11,8 +11,12 @@ article {
   display: inline-flex;
 }
 
+body {
+  margin: 0;
+}
+
 .img-flex {
-  display: flex;
+  display: block;
   width: 100%;
 }
 
