@@ -14,30 +14,51 @@ article {
 .img-flex {
   display: flex;
   width: 100%;
-  height: 500px;
-  position: relative;
+}
 
+div {
+  overflow: hidden;
+  position: relative;
 }
 
 .banner {
-  overflow: hidden;
-  border: 1px solid #ccc
-  border-radius: 0 6px 6px;
+  max-height: 500px;
 }
 
 h2 {
-  background-color: rgba(0, 0, 0, .5);
   color: #fff;
   font-size: 4rem;
   font-weight: 700;
+  max-width: 50em;
+  margin-bottom: 0;
+}
+
+.banner-text {
   position: absolute;
   top: 10px;
+  max-height: 365px;
+  width: 100%;
+  height: 100%;
+  max-width: 800px;
+}
+
+h2 span{
+  background-color: rgba(0, 0, 0, .5);
 }
 
 p {
   font-size: 2rem;
   color: black;
-  font-weight: 400i;
-  position: absolute;
-  top: 200px;
+  font-weight: 400;
+  font-size: italic;
+}
+
+@media only screen and (min-width: 87.5em) {
+
+ .banner-text {
+   top: 50%;
+   left: 50%;
+   transform: translateX(-50%) translateY(-50%);
+ }
+
 }
