@@ -1,5 +1,4 @@
----
-summary: 'Use CSS position to make a hero banner with text displayed in front of an image.'
+Summary: 'Use CSS position to make a hero banner with text displayed in front of an image.'
 time: '1 hour'
 deliverables: '1 HTML file, 1 CSS file, images'
 ---

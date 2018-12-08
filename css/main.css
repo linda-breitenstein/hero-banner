@@ -1,13 +1,43 @@
 html {
   box-sizing: border-box;
-  font-family: Open Sans;
+  font: 100%/1.5 "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+article {
+  display: inline-flex;
+}
+
 .img-flex {
-  display: block;
+  display: flex;
   width: 100%;
+  height: 500px;
+  position: relative;
+
+}
+
+.banner {
+  overflow: hidden;
+  border: 1px solid #ccc
+  border-radius: 0 6px 6px;
+}
+
+h2 {
+  background-color: rgba(0, 0, 0, .5);
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 700;
+  position: absolute;
+  top: 10px;
+}
+
+p {
+  font-size: 2rem;
+  color: black;
+  font-weight: 400i;
+  position: absolute;
+  top: 200px;
 }
